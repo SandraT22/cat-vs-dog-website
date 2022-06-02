@@ -13,4 +13,10 @@ $(document).ready(function() {
     $("ul#user2").after("<li>Human-sized cat?</li>");
     $("ul#webpage2").after("<li>Ant-sized dog?</li>");
   });
+  $("button#bark").click(function() {
+    $("ul#user3").after("<li>Woof Woof!</li>");
+  });
+  $("button#meow").click(function() {
+    $("ul#user4").after("<li>Meow!</li>");
+  });
 });
