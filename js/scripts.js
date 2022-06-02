@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("button#question").click(function() {
-    $("ul#user").append("<p>Want to play a game?<p>");
-    $("ul#webpage").append("<p>Let's play Cat vs Dog!<p>");
+    $("ul#user").before("<p>Want to play a game?<p>");
+    $("ul#webpage").before("<p>Let's play Cat vs Dog!<p>");
   });
 
   $("button#question1").click(function() {
